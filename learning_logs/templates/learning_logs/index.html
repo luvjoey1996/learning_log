@@ -1,0 +1,14 @@
+{% extends 'learning_logs/base.html' %}
+{% block header %}
+    <div class="jumbotron">
+    <h2> Track your learning</h2>
+    </div>
+{% endblock header %}
+{% block content %}
+    <h2>
+    <a href="{% url 'users:register' %}"> 注册</a>一个Learning log 账户，记录你的学习日志！
+    </h2>
+    <h2>
+    无论你在学习
+    </h2>
+{% endblock content %}
